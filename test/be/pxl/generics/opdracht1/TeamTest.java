@@ -20,6 +20,6 @@ public class TeamTest {
 		SoccerPlayer player = new SoccerPlayer("Buffel");
 		soccerTeam.addPlayer(player);
 		soccerTeam.addPlayer(player);
-		Assert.assertEquals(1,  soccerTeam.numberOfPlayers());
+		Assert.assertEquals(2,  soccerTeam.numberOfPlayers());
 	}
 }
